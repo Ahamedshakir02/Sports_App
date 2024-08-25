@@ -1,23 +1,23 @@
 import react from 'react';
-import { Text,View,StyleSheet, } from 'react-native-web';
+import { View,Text,StyleSheet } from "react-native";
 
 const FavouriteScreen = () => {
-    return(
-        <View style={style.containor}>
-            <Text style={styles.conatainortext}>Favourite Screen</Text>
+    return (
+        <View style={styles.container}>
+        <Text style={styles.containertext}>Favorite Screen</Text>
         </View>
-    )
+    );
 };
-
+ 
 const styles = StyleSheet.create ({
-    containor: {
-        flex:1,
-        justifycontent:'center',
-        alignitem:'center',
-        backgroundcolor:'#ffff',
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
-    conatainortext: {
-        fontsize:25,
-    }
+    containertext: {
+        fontSize: 30,
+
+    },
 });
 export default FavouriteScreen;
